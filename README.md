@@ -64,16 +64,8 @@ where
 
 Then velocity and position are updated using:
 
-<img src="https://latex.codecogs.com/svg.latex?\color{white}v=v+a\cdot dt" alt="v = v + a dt" />
+v = v + a dt  
 
-<img src="https://latex.codecogs.com/svg.latex?\color{white}x=x+v\cdot dt" alt="x = x + v dt" />
-
-Each frame represents **1 day** (`DT = 86400` seconds).
-
-
-Then velocity and position are updated using:
-
-v = v + a dt
 x = x + v dt
 
 Each frame represents **1 day** (`DT = 86400` seconds).
