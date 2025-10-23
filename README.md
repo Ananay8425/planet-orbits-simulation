@@ -65,7 +65,6 @@ where
 Then velocity and position are updated using:
 
 v = v + a dt  
-
 x = x + v dt
 
 Each frame represents **1 day** (`DT = 86400` seconds).
