@@ -48,77 +48,27 @@ python main.py
 ---
 
 # How It Works
-🔹 Gravitational Force
 
-Each planet’s motion is determined using Newton’s Law of Universal Gravitation:
+### 🔹 Gravitational Force
 
-𝐹
-=
-𝐺
-𝑚
-1
-𝑚
-2
-𝑟
-2
-F=G
-r
-2
-m
-1
-	​
+<img src="https://latex.codecogs.com/svg.latex?F=G\frac{m_1m_2}{r^2}" alt="F = G m1 m2 / r^2" />
 
-m
-2
-	​
+where  
+- \(G = 6.67430 \times 10^{-11}\) (gravitational constant)  
+- \(m_1, m_2\) = masses of two bodies  
+- \(r\) = distance between them
 
-	​
+### 🔹 Motion Update
 
-
-where
-
-G = 6.67430 × 10⁻¹¹ (gravitational constant)
-
-m₁, m₂ = masses of two bodies
-
-r = distance between them
-
-🔹 Motion Update
-
-Acceleration is derived from the net force:
-
-𝑎
-=
-𝐹
-𝑚
-a=
-m
-F
-	​
-
+<img src="https://latex.codecogs.com/svg.latex?a=\frac{F}{m}" alt="a = F/m" />
 
 Then velocity and position are updated using:
 
-𝑣
-=
-𝑣
-+
-𝑎
-⋅
-𝑑
-𝑡
-v=v+a⋅dt
-𝑥
-=
-𝑥
-+
-𝑣
-⋅
-𝑑
-𝑡
-x=x+v⋅dt
+<img src="https://latex.codecogs.com/svg.latex?v=v+a\cdot dt" alt="v = v + a dt" />
 
-Each frame represents 1 day (DT = 86400 seconds).
+<img src="https://latex.codecogs.com/svg.latex?x=x+v\cdot dt" alt="x = x + v dt" />
+
+Each frame represents **1 day** (`DT = 86400` seconds).
 
 ---
 
