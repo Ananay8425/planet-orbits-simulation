@@ -89,7 +89,7 @@ Trails are cleared upon zoom toggle for clarity.
 ```bash
 planet-simulation/
 │
-├── main.py            # Core simulation file
+├── planet-orbits.py            # Core simulation file
 ├── README.md          # Project documentation
 └── requirements.txt   # Dependencies (optional)
 ```
