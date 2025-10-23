@@ -51,7 +51,7 @@ python main.py
 
 ### 🔹 Gravitational Force
 
-<img src="https://latex.codecogs.com/svg.latex?F=G\frac{m_1m_2}{r^2}" alt="F = G m1 m2 / r^2" />
+<img src="https://latex.codecogs.com/svg.latex?\color{white}F=G\frac{m_1m_2}{r^2}" alt="F = G m1 m2 / r^2" />
 
 where  
 - \(G = 6.67430 \times 10^{-11}\) (gravitational constant)  
@@ -60,13 +60,21 @@ where
 
 ### 🔹 Motion Update
 
-<img src="https://latex.codecogs.com/svg.latex?a=\frac{F}{m}" alt="a = F/m" />
+<img src="https://latex.codecogs.com/svg.latex?\color{white}a=\frac{F}{m}" alt="a = F/m" />
 
 Then velocity and position are updated using:
 
-<img src="https://latex.codecogs.com/svg.latex?v=v+a\cdot dt" alt="v = v + a dt" />
+<img src="https://latex.codecogs.com/svg.latex?\color{white}v=v+a\cdot dt" alt="v = v + a dt" />
 
-<img src="https://latex.codecogs.com/svg.latex?x=x+v\cdot dt" alt="x = x + v dt" />
+<img src="https://latex.codecogs.com/svg.latex?\color{white}x=x+v\cdot dt" alt="x = x + v dt" />
+
+Each frame represents **1 day** (`DT = 86400` seconds).
+
+
+Then velocity and position are updated using:
+
+v = v + a dt
+x = x + v dt
 
 Each frame represents **1 day** (`DT = 86400` seconds).
 
